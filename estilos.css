@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+*{
+    font-family: 'Roboto Flex', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;    
+}
+main{
+    margin-top: 150px;
+}
+footer{
+    margin-top: auto;
+}
+.navegador{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.navegador .nv-2{
+    margin-right: 15px;
+}
+
+.navegador .nv-1{
+    padding-right: 15px;
+    margin-top: 10px;
+    
+}
+.navegador .nv-1 .gmail{
+    padding: 15px;
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+}
+.navegador .nv-1 .imagenes{
+    padding-right: 15px;
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+}
+.navegador .nv-2 .menu{
+    padding-right: 15px;
+    margin-bottom: 4px;
+}
+.navegador .nv-2 .icono{
+    border-radius: 30px;
+}
+.navegador .nv-2 .menu{
+    width: 20px;
+}
+.contenedor{
+    display: flex;
+    align-items: baseline;
+    justify-content: end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;        
+}
+.contenedor .menu{
+    margin: 10px;
+    color: rgba(0,0,0,.87);
+    text-decoration: none
+    
+}
+.contenedor .menu .menu-1{
+    border-radius: 30px;
+    border:0px;
+    background-color: white;
+}
+.contenedor .menu .menu-1 .imagen{
+    height: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container .buscador{
+    width: 550px;
+    height: 44px;
+    border-radius: 24px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    max-width: 584px
+    
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+    
+}
+.botones .boton-1{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    font-size: 14px;
+    
+}
+.botones .boton-2{
+    background-color: #f8f9fa;
+    margin-left: 15px;
+    border: 1px solid #f8f9fa;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    font-size: 14px;
+
+}
+.pie{
+    background: #f2f2f2;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+.container-2{
+    display: flex;
+    flex-wrap: wrap;
+    background: #f2f2f2;
+    
+   
+}
+.container-2 .sg{
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    color: #70757a;
+    background: #f2f2f2;
+
+}
+.container-3{
+    display: flex;
+    flex-wrap: wrap;    
+}
+.container-2 .sg-1{
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    color: #70757a;
+    background: #f2f2f2;
+    
+}
+.sg-10{
+    margin-left: 607px;
+    text-decoration: none;
+    padding: 15px;
+    color: #70757a;
+}
+
+
+
